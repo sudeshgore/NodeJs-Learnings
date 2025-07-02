@@ -1,2 +1,2 @@
 # NodeJs-Learnings
-Backend Learning
+Backend Learning - NodeJs, ExpressJs, MongoDB, Mongoose, JWT Token authentication.
