@@ -38,8 +38,16 @@
 var _ = require('lodash');
 
 var data = ["person", "person", "Sudesh", "AIR-8", 8, 1, 8];
+// Returning the unique data
 var filter = _.uniq(data);
 console.log(filter);
+
+// Checking is it string or not
+console.log(_.isString('Sudesh')); // return true
+console.log(_.isString(3)); // return false
+console.log(_.isString(true)); // return false - because 'true' is boolean
+console.log(_.isString(false)); // return false - because 'false' is boolean
+
 
 
 
