@@ -5,7 +5,9 @@
 */
 
 var prompt = require('prompt-sync')();
+
 const age = prompt("Please enter your age to check the discount: ");
+
 if(age < 18){
     console.log("You get a 20% discount!");
 }
